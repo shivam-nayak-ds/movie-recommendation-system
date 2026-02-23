@@ -112,13 +112,12 @@ movie-recommendation-system/
 
 <h2>📸 Application Preview</h2>
 <p align="center">
-  <img src="screenshots/home.png" width="800" alt="Home Page">
+  <img src="./screenshots/home.png" width="800" alt="Home Page">
 </p>
 
 <p align="center">
-  <img src="screenshots/recommendations.png" width="800" alt="Recommendations">
+  <img src="./screenshots/recommendations.png" width="800" alt="Recommendations">
 </p>
-
 <hr>
 
 <h2>🔮 Future Enhancements</h2>
