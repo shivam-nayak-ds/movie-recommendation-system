@@ -110,13 +110,14 @@ movie-recommendation-system/
 
 <hr>
 
-<h2>📸 Application Preview</h2>
 <p align="center">
-  <img src="./screenshots/home.png" width="800" alt="Home Page">
+  <img src="https://github.com/shivam-nayak-ds/movie-recommendation-system/raw/main/screenshots/home.png"
+       width="800" alt="Home Page">
 </p>
 
 <p align="center">
-  <img src="./screenshots/recommendations.png" width="800" alt="Recommendations">
+  <img src="https://github.com/shivam-nayak-ds/movie-recommendation-system/raw/main/screenshots/recommendations.png"
+       width="800" alt="Recommendations">
 </p>
 <hr>
 
