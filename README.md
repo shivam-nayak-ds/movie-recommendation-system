@@ -1,44 +1,44 @@
 <h1 align="center">🎬 Movie Recommendation System</h1>
 
 <p align="center">
-A <b>Machine Learning powered Movie Recommendation Web Application</b> built using
-<b>Python & Streamlit</b> that suggests similar movies based on content similarity.
+A <b>content-based Movie Recommendation Web Application</b> built using
+<b>Python</b> and <b>Streamlit</b> that recommends similar movies based on
+metadata similarity.
 </p>
 
 <hr>
 
 <h2>🚀 Project Overview</h2>
 <p>
-This project is a <b>content-based movie recommender system</b> that helps users discover
-movies similar to their interests. The system analyzes movie metadata such as
-<b>genres, keywords, cast, crew, and overview</b> and recommends movies using
-<b>cosine similarity</b>.
+This project implements a <b>content-based recommendation system</b> that helps users
+discover movies similar to their preferences. The system analyzes movie metadata such as
+<b>genres, keywords, cast, crew, and overview</b> to compute similarity between movies.
 </p>
 
 <p>
-The application is deployed as an <b>interactive Streamlit web app</b> with a clean dark UI
-and movie posters fetched using the <b>TMDB API</b>.
+The application is deployed as an <b>interactive Streamlit web app</b> with a clean dark-themed
+interface and dynamically fetched movie posters using the <b>TMDB API</b>.
 </p>
 
 <hr>
 
 <h2>✨ Key Highlights</h2>
 <ul>
-  <li>🎯 Content-based filtering using textual movie metadata</li>
-  <li>🧠 Machine Learning similarity matching (Cosine Similarity)</li>
-  <li>🎨 Modern dark UI built with Streamlit & custom CSS</li>
-  <li>🎞️ Movie posters and metadata using TMDB API</li>
-  <li>⚡ Fast recommendations using precomputed pickle files</li>
+  <li>Content-based filtering using textual movie metadata</li>
+  <li>Similarity matching using <b>Cosine Similarity</b></li>
+  <li>Interactive and responsive web interface</li>
+  <li>Movie posters and metadata fetched via TMDB API</li>
+  <li>Fast recommendations using precomputed model files</li>
 </ul>
 
 <hr>
 
 <h2>🌟 Features</h2>
 <ul>
-  <li>Search or select a movie from dropdown</li>
-  <li>Get top 5 similar movie recommendations</li>
+  <li>Search or select a movie from the dropdown</li>
+  <li>Recommend top 5 similar movies</li>
   <li>Display movie posters with titles</li>
-  <li>Responsive Streamlit web interface</li>
+  <li>Clean and user-friendly Streamlit interface</li>
   <li>Efficient model loading using Pickle</li>
 </ul>
 
@@ -49,7 +49,7 @@ and movie posters fetched using the <b>TMDB API</b>.
   <li><b>Programming Language:</b> Python</li>
   <li><b>Data Processing:</b> Pandas, NumPy</li>
   <li><b>Machine Learning:</b> Scikit-learn</li>
-  <li><b>Vectorization:</b> CountVectorizer</li>
+  <li><b>Text Vectorization:</b> CountVectorizer</li>
   <li><b>Similarity Measure:</b> Cosine Similarity</li>
   <li><b>Web Framework:</b> Streamlit</li>
   <li><b>Model Storage:</b> Pickle</li>
@@ -67,7 +67,7 @@ The project uses the <b>TMDB 5000 Movies Dataset</b> and <b>TMDB 5000 Credits Da
   <li>Genres</li>
   <li>Overview</li>
   <li>Keywords</li>
-  <li>Cast & crew</li>
+  <li>Cast and crew</li>
 </ul>
 
 <hr>
@@ -75,16 +75,15 @@ The project uses the <b>TMDB 5000 Movies Dataset</b> and <b>TMDB 5000 Credits Da
 <h2>⚙️ How It Works</h2>
 <ol>
   <li>Movie and credits datasets are merged</li>
-  <li>Important features are combined into a single text column</li>
+  <li>Relevant textual features are combined into a single representation</li>
   <li>Text data is vectorized using CountVectorizer</li>
-  <li>Cosine similarity is calculated between movies</li>
-  <li>Top similar movies are recommended to the user</li>
+  <li>Cosine similarity is computed between movies</li>
+  <li>Top similar movies are recommended based on similarity scores</li>
 </ol>
 
 <hr>
 
-<h2>▶️ How to Run the Project Locally</h2>
-
+<h2>▶️ Running the Project Locally</h2>
 <pre>
 pip install -r requirements.txt
 streamlit run app.py
@@ -93,7 +92,6 @@ streamlit run app.py
 <hr>
 
 <h2>📁 Project Structure</h2>
-
 <pre>
 movie-recommendation-system/
 │
@@ -114,21 +112,20 @@ movie-recommendation-system/
 
 <h2>📸 Application Preview</h2>
 <p align="center">
-  <img src="screenshots/home.png" width="800">
+  <img src="screenshots/home.png" width="800" alt="Home Page">
 </p>
 
 <p align="center">
-  <img src="screenshots/recommendations.png" width="800">
+  <img src="screenshots/recommendations.png" width="800" alt="Recommendations">
 </p>
 
 <hr>
 
-<h2>🔮 Future Improvements</h2>
+<h2>🔮 Future Enhancements</h2>
 <ul>
-  <li>Add collaborative filtering</li>
-  <li>User-based recommendations</li>
-  <li>Improve similarity model</li>
-  <li>Deploy with cloud hosting</li>
+  <li>Collaborative filtering</li>
+  <li>Improved feature engineering</li>
+  <li>Cloud deployment</li>
 </ul>
 
 <hr>
@@ -140,5 +137,5 @@ Aspiring Data Scientist / Machine Learning Engineer
 </p>
 
 <p>
-If you found this project useful, please ⭐ the repository.
+If you find this project useful, please consider giving it a ⭐ on GitHub.
 </p>
